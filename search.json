@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Profile Photo\n\n\n\n\nI aspire to get a job in advertising after college.\n\n\n\n\nR\nQuarto\n\n\n\n\nCal Poly Pomona Major: Marketing"
+  },
+  {
+    "objectID": "index.html#career-aspiration",
+    "href": "index.html#career-aspiration",
+    "title": "Home",
+    "section": "",
+    "text": "I aspire to get a job in advertising after college."
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Home",
+    "section": "",
+    "text": "R\nQuarto"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Home",
+    "section": "",
+    "text": "Cal Poly Pomona Major: Marketing"
+  },
+  {
+    "objectID": "shinylive.html",
+    "href": "shinylive.html",
+    "title": "Essay on Shiny Live",
+    "section": "",
+    "text": "In this lecture note, I will explain Shinylive and how it compares to traditional Shiny apps. This is important for understanding modern ways to deploy interactive applications more easily."
+  },
+  {
+    "objectID": "shinylive.html#prompt-what-is-shinylive",
+    "href": "shinylive.html#prompt-what-is-shinylive",
+    "title": "Essay on Shiny Live",
+    "section": "Prompt: What is Shinylive?",
+    "text": "Prompt: What is Shinylive?\nShinylive is a technology that allows Shiny apps to run entirely in a web browser without needing a server. It uses WebAssembly to execute R code directly on the user’s device.\nThis means that Shinylive apps can be deployed as static websites, making them easier to share and host."
+  },
+  {
+    "objectID": "dashboard.html",
+    "href": "dashboard.html",
+    "title": "Dashboard",
+    "section": "",
+    "text": "Dashboard\n\nlibrary(ggplot2)\nggplot(mpg, aes(x=displ, y=hwy)) + geom_point()"
+  },
+  {
+    "objectID": "shiny-apps.html",
+    "href": "shiny-apps.html",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "A Shiny app is an interactive web application built using R or Python that allows users to interact with data and see results update in real time. Instead of viewing a static report, users can change inputs such as sliders, dropdown menus, or buttons and instantly see updated outputs like graphs, tables, or summaries."
+  },
+  {
+    "objectID": "shiny-apps.html#prompt-what-is-a-shiny-app",
+    "href": "shiny-apps.html#prompt-what-is-a-shiny-app",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "A Shiny app is an interactive web application built using R or Python that allows users to interact with data and see results update in real time. Instead of viewing a static report, users can change inputs such as sliders, dropdown menus, or buttons and instantly see updated outputs like graphs, tables, or summaries."
+  },
+  {
+    "objectID": "shiny-apps.html#prompt-what-makes-shiny-different-from-a-regular-report",
+    "href": "shiny-apps.html#prompt-what-makes-shiny-different-from-a-regular-report",
+    "title": "Essay on Shiny Apps",
+    "section": "Prompt: What makes Shiny different from a regular report?",
+    "text": "Prompt: What makes Shiny different from a regular report?\nA regular report is static, meaning the content does not change after it is created. The reader can only view what the author has already decided to show.\nIn contrast, a Shiny app is interactive. Users can explore different scenarios by changing inputs. For example, instead of seeing one fixed graph, users can adjust variables and see how the graph changes. This makes Shiny much more powerful for data exploration and decision making. ## Prompt: How does Shiny work?\nShiny works by connecting inputs and outputs through a concept called reactivity.\nInputs: controls the user interacts with sliders, dropdowns, buttons Outputs: results displayed like plots, tables, text\nWhen an input changes, the output automatically updates. This reactive behavior allows the app to respond instantly without requiring the user to rerun code manually."
+  },
+  {
+    "objectID": "shiny-apps.html#prompt-why-would-coworkers-use-shiny",
+    "href": "shiny-apps.html#prompt-why-would-coworkers-use-shiny",
+    "title": "Essay on Shiny Apps",
+    "section": "Prompt: Why would coworkers use Shiny?",
+    "text": "Prompt: Why would coworkers use Shiny?\nCoworkers would use Shiny to make data easier to understand and explore. Instead of sending static reports, they can create interactive tools that allow others to investigate the data themselves.\nCommon use cases include:\nInteractive dashboards for business metrics Data exploration tools for analysts Teaching and demonstrations"
+  },
+  {
+    "objectID": "shiny-apps.html#introduction",
+    "href": "shiny-apps.html#introduction",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "In this lecture note, I will explain Shiny apps to coworkers who are new to the concept. The goal is to provide a clear and practical understanding of what Shiny is, how it works, and why it is useful."
+  },
+  {
+    "objectID": "shinylive.html#introduction",
+    "href": "shinylive.html#introduction",
+    "title": "Essay on Shiny Live",
+    "section": "",
+    "text": "In this lecture note, I will explain Shinylive and how it compares to traditional Shiny apps. This is important for understanding modern ways to deploy interactive applications more easily."
+  },
+  {
+    "objectID": "shinylive.html#prompt-how-does-shinylive-differ-from-traditional-shiny-apps",
+    "href": "shinylive.html#prompt-how-does-shinylive-differ-from-traditional-shiny-apps",
+    "title": "Essay on Shiny Live",
+    "section": "Prompt: How does Shinylive differ from traditional Shiny apps?",
+    "text": "Prompt: How does Shinylive differ from traditional Shiny apps?\nTraditional Shiny Apps Require a server to run code Use a client-server model Inputs are sent to the server Server processes data and returns results Shinylive Apps Do not require a server Run entirely in the browser Use WebAssembly for computation Handle inputs and outputs locally\nThe main difference is where the computation happens:\nShiny → server Shinylive → browser ## Prompt: What are the pros of Shinylive? No server required: easier to deploy Free hosting: works with GitHub Pages or Quarto Pub Scalable: each user runs the app locally Simple sharing: behaves like a static website ## Prompt: What are the cons of Shinylive? Limited support for some R packages Slower performance for complex computations Larger initial load time Depends on the user’s browser and device ## Prompt: When should we use Shinylive vs Shiny? Use Shinylive when: You want simple deployment You are building small or medium apps You want to avoid server setup Use Shiny when: You need heavy computation You require advanced packages You need secure or controlled environments ## Conclusion\nShinylive is a major improvement in making Shiny apps easier to deploy and share. While it has some limitations compared to traditional Shiny apps, it removes the need for a server, making it more accessible. The key takeaway for coworkers is that Shinylive simplifies deployment, while traditional Shiny provides more power and flexibility."
+  },
+  {
+    "objectID": "shiny-apps.html#prompt-what-are-the-strengths-of-shiny",
+    "href": "shiny-apps.html#prompt-what-are-the-strengths-of-shiny",
+    "title": "Essay on Shiny Apps",
+    "section": "Prompt: What are the strengths of Shiny?",
+    "text": "Prompt: What are the strengths of Shiny?\nShiny has several advantages:\nInteractivity: users can explore data dynamically Accessibility: apps can be shared through a web browser Communication: makes complex data easier to understand Flexibility: can be used for simple apps or advanced dashboards ## Prompt: What are the limitations of Shiny?\nDespite its strengths, Shiny also has some limitations:\nRequires a server to run the app Deployment can be more complex than static websites Can require maintenance and hosting costs Performance may depend on server resources ## Conclusion\nShiny is a powerful tool that transforms static analysis into interactive experiences. It allows users to engage with data directly, making it highly useful for communication, exploration, and decision-making. For coworkers, the key takeaway is that Shiny helps turn data into an interactive tool rather than just a report."
+  }
+]
