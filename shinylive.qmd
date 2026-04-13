@@ -1,0 +1,50 @@
+---
+title: "Essay on Shiny Live"
+format: html
+---
+
+
+## Prompt: What is Shinylive?
+
+Shinylive is a technology that allows Shiny apps to run entirely in a web browser without needing a server. It uses WebAssembly to execute R code directly on the user’s device.
+
+This means that Shinylive apps can be deployed as static websites, making them easier to share and host.
+
+## Prompt: How does Shinylive differ from traditional Shiny apps?
+Traditional Shiny Apps
+Require a server to run code
+Use a client-server model
+Inputs are sent to the server
+Server processes data and returns results
+Shinylive Apps
+Do not require a server
+Run entirely in the browser
+Use WebAssembly for computation
+Handle inputs and outputs locally
+
+The main difference is where the computation happens:
+
+Shiny to server
+Shinylive to browser
+## Prompt: What are the pros of Shinylive?
+No server required: easier to deploy
+Free hosting: works with GitHub Pages or Quarto Pub
+Scalable: each user runs the app locally
+Simple sharing: behaves like a static website
+## Prompt: What are the cons of Shinylive?
+Limited support for some R packages
+Slower performance for complex computations
+Larger initial load time
+Depends on the user’s browser and device
+## Prompt: When should we use Shinylive vs Shiny?
+Use Shinylive when:
+You want simple deployment
+You are building small or medium apps
+You want to avoid server setup
+Use Shiny when:
+You need heavy computation
+You require advanced packages
+You need secure or controlled environments
+## Conclusion
+
+Shinylive is a major improvement in making Shiny apps easier to deploy and share. While it has some limitations compared to traditional Shiny apps, it removes the need for a server, making it more accessible. The key takeaway for coworkers is that Shinylive simplifies deployment, while traditional Shiny provides more power and flexibility.

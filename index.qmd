@@ -1,0 +1,20 @@
+---
+title: "Home"
+format: html
+---
+
+# Cole deMoet
+
+![Profile Photo](/Users/coledemoet/Downloads/IMG_1290.jpg){width=200}
+
+## Career Aspiration
+I aspire to get a job in advertising after college.
+
+## Skills
+- R
+- Quarto
+
+
+## Education
+Cal Poly Pomona
+Major: Marketing
